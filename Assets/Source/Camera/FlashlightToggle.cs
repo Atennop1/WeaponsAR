@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using Vuforia;
 
-namespace Weapons.Initialization
+namespace Weapons.Camera
 {
     public sealed class FlashlightToggle : MonoBehaviour
     {

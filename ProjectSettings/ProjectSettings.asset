@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 7d93ad18140743e43868814527247ebf
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -137,7 +137,7 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 1.0.0
+  bundleVersion: 10.20.3
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -169,7 +169,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 10203
   AndroidMinSdkVersion: 26
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -248,7 +248,7 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
-  clonedFromGUID: ef275a76e09d840118a2d7419446e38c
+  clonedFromGUID: 3460efe4e6b304928b0ed174ef9f27f6
   templatePackageId: 
   templateDefaultScene: 
   useCustomMainManifest: 0
@@ -898,7 +898,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: WeaponsAR
-  metroPackageVersion: 10.19.3.0
+  metroPackageVersion: 10.20.3.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: Vuforia
@@ -982,10 +982,10 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
+      Proximity: False
       InternetClient: True
       CodeGeneration: False
       BackgroundMediaPlayback: False
-      Proximity: False
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False
@@ -1036,8 +1036,8 @@ PlayerSettings:
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:
-    m_VersionCode: 10193
-    m_VersionName: 10.19.3
+    m_VersionCode: 10203
+    m_VersionName: 10.20.3
   hmiPlayerDataPath: 
   hmiForceSRGBBlit: 1
   embeddedLinuxEnableGamepadInput: 1
@@ -1049,7 +1049,7 @@ PlayerSettings:
   cloudProjectId: 536a25b8-d7a1-4af5-966f-a73dc829c2e2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: WeaponsAR 2023-12-09_22-50-28
+  projectName: 
   organizationId: atennopgames
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1

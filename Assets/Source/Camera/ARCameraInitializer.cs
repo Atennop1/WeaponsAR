@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using Vuforia;
 
-namespace Weapons.Initialization
+namespace Weapons.Camera
 {
-    public sealed class CameraInitializer : MonoBehaviour
+    public sealed class ARCameraInitializer : MonoBehaviour
     {
         private void Awake()
         {
-            VuforiaApplication.Instance.Initialize(FusionProviderOption.PREFER_PLATFORM_FUSION_PROVIDER);
+            VuforiaApplication.Instance.Initialize();
             VuforiaApplication.Instance.OnVuforiaStarted += InitAR;
         }
 
