@@ -15,6 +15,6 @@ namespace Weapons.UI
             => _button.onClick.RemoveListener(Disable);
 
         private void Disable()
-            => _objectToDisable.SetActive(true);
+            => _objectToDisable.SetActive(false);
     }
 }
