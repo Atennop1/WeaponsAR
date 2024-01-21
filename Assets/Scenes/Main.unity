@@ -2220,6 +2220,7 @@ GameObject:
   - component: {fileID: 856924765}
   - component: {fileID: 856924764}
   - component: {fileID: 856924769}
+  - component: {fileID: 856924770}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -2339,6 +2340,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd13e997d4a64da09c6fcc49c83abb89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &856924770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856924763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec673d4feac4152ae09926e44289228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioMixer: {fileID: 24100000, guid: 6f9502d797e966949b3ab72fbd04e168, type: 2}
 --- !u!1 &979662835
 GameObject:
   m_ObjectHideFlags: 0
@@ -2920,6 +2934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1528829098}
   - component: {fileID: 1528829099}
+  - component: {fileID: 1528829100}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -2993,13 +3008,27 @@ MonoBehaviour:
   m_FillRect: {fileID: 1575760423}
   m_HandleRect: {fileID: 382309297}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1528829100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528829097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2439bc93f6492aace78ead6fdb01f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioMixer: {fileID: 24100000, guid: 6f9502d797e966949b3ab72fbd04e168, type: 2}
+  _slider: {fileID: 1528829099}
 --- !u!1 &1542252482
 GameObject:
   m_ObjectHideFlags: 0
