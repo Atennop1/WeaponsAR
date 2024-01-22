@@ -1253,6 +1253,7 @@ GameObject:
   - component: {fileID: 441248708}
   - component: {fileID: 441248711}
   - component: {fileID: 441248712}
+  - component: {fileID: 441248713}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -1386,6 +1387,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cea217cc96940aaa531f2ac08f2e379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _button: {fileID: 441248708}
+--- !u!114 &441248713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441248706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1961e385250d4b64a10b8b5dd9b94957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 441248708}
@@ -2195,6 +2209,7 @@ GameObject:
   - component: {fileID: 752960187}
   - component: {fileID: 752960186}
   - component: {fileID: 752960190}
+  - component: {fileID: 752960191}
   m_Layer: 0
   m_Name: ExitButton
   m_TagString: Untagged
@@ -2328,6 +2343,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cea217cc96940aaa531f2ac08f2e379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _button: {fileID: 752960187}
+--- !u!114 &752960191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752960184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1961e385250d4b64a10b8b5dd9b94957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 752960187}
