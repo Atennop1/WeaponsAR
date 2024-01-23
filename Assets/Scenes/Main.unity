@@ -1252,7 +1252,6 @@ GameObject:
   - component: {fileID: 441248709}
   - component: {fileID: 441248708}
   - component: {fileID: 441248711}
-  - component: {fileID: 441248712}
   - component: {fileID: 441248713}
   m_Layer: 5
   m_Name: CloseButton
@@ -1377,19 +1376,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 441248708}
   _objectToDisable: {fileID: 979662835}
---- !u!114 &441248712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 441248706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cea217cc96940aaa531f2ac08f2e379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _button: {fileID: 441248708}
 --- !u!114 &441248713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1625,7 +1611,6 @@ GameObject:
   - component: {fileID: 560874552}
   - component: {fileID: 560874551}
   - component: {fileID: 560874554}
-  - component: {fileID: 560874555}
   m_Layer: 5
   m_Name: SettingsButton
   m_TagString: Untagged
@@ -1748,19 +1733,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 560874551}
   _objectToEnable: {fileID: 979662835}
---- !u!114 &560874555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560874549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a3902f0564047dcb5fce11de8461926, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _button: {fileID: 560874551}
 --- !u!1 &598598802
 GameObject:
   m_ObjectHideFlags: 0

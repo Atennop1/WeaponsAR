@@ -22,10 +22,10 @@ namespace Weapons.Buttons
         private void OnDestroy() 
             => _button.onClick.RemoveListener(Load);
 
-        private void Load()
+        private async void Load()
         {
-            if (VuforiaBehaviour.Instance != null)
-                VuforiaBehaviour.Instance.CameraDevice.SetFlash(_stateStorage.HasSave() && _stateStorage.Load().Value);
+            await System.Threading.Tasks.Task.Delay(100);
+            VuforiaBehaviour.Instance.CameraDevice.SetFlash(_stateStorage.HasSave() && _stateStorage.Load().Value);
         }
     }
 }

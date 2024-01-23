@@ -7,6 +7,9 @@ namespace Weapons.Camera
     {
         private void Awake()
         {
+            if (VuforiaApplication.Instance.IsInitialized)
+                return;
+            
             VuforiaApplication.Instance.Initialize();
             VuforiaApplication.Instance.OnVuforiaStarted += InitAR;
         }
