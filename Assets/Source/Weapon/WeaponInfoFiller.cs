@@ -1,7 +1,7 @@
 ﻿using TMPro;
 using UnityEngine;
 
-namespace Weapons.Gameplay
+namespace Weapons.Weapon
 {
     public sealed class WeaponInfoFiller : MonoBehaviour
     {
