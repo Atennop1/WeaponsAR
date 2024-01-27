@@ -1,4 +1,4 @@
-namespace Weapons.Saving
+namespace WeaponsAR.Saving
 {
     public interface ISaveStorage<TStoreValue>
     {

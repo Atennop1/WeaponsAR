@@ -2,7 +2,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace Weapons.Saving.Paths
+namespace WeaponsAR.Saving.Paths
 {
     public sealed class Path : IPath
     {

@@ -1,9 +1,9 @@
 ﻿using TNRD;
 using UnityEngine;
 using UnityEngine.UI;
-using Weapons.Weapon;
+using WeaponsAR.Weapon;
 
-namespace Weapons.Buttons
+namespace WeaponsAR.Buttons
 {
     public sealed class ContinueAssemblyButton : MonoBehaviour
     {

@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
-using Weapons.Saving;
-using Weapons.Saving.Paths;
+using WeaponsAR.Saving;
+using WeaponsAR.Saving.Paths;
 
-namespace Weapons.Sound
+namespace WeaponsAR.Sound
 {
     public sealed class VolumeSlider : MonoBehaviour
     {

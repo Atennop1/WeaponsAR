@@ -2,9 +2,9 @@
 using UnityEngine.UI;
 using Vuforia;
 
-namespace Weapons.Buttons
+namespace WeaponsAR.Buttons
 {
-    public sealed class UnpauseVuforiaButton : MonoBehaviour
+    public sealed class PauseVuforiaButton : MonoBehaviour
     {
         [SerializeField] private Button _button;
             
@@ -15,6 +15,6 @@ namespace Weapons.Buttons
             => _button.onClick.RemoveListener(Pause);
 
         private void Pause()
-            => VuforiaBehaviour.Instance.enabled = true;
+            => VuforiaBehaviour.Instance.enabled = false;
     }
 }

@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Vuforia;
-using Weapons.Camera;
-using Weapons.Saving;
-using Weapons.Saving.Paths;
+using WeaponsAR.Camera;
+using WeaponsAR.Saving;
+using WeaponsAR.Saving.Paths;
 
-namespace Weapons.Buttons
+namespace WeaponsAR.Buttons
 {
     public sealed class LoadFlashlightButton : MonoBehaviour
     {

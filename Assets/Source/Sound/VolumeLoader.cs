@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.Audio;
-using Weapons.Saving;
-using Weapons.Saving.Paths;
+using WeaponsAR.Saving;
+using WeaponsAR.Saving.Paths;
 
-namespace Weapons.Sound
+namespace WeaponsAR.Sound
 {
     public sealed class VolumeLoader : MonoBehaviour
     {

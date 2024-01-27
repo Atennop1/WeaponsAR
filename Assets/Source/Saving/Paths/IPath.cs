@@ -1,4 +1,4 @@
-﻿namespace Weapons.Saving.Paths
+﻿namespace WeaponsAR.Saving.Paths
 {
     public interface IPath
     {

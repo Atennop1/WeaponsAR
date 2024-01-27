@@ -2,7 +2,7 @@
 using TNRD;
 using UnityEngine;
 
-namespace Weapons.Weapon
+namespace WeaponsAR.Weapon
 {
     public sealed class PhysicalAssemblyCycle : MonoBehaviour, IAssemblyCycle
     {

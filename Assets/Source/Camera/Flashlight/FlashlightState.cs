@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Weapons.Camera
+namespace WeaponsAR.Camera
 {
     [Serializable]
     public struct FlashlightState

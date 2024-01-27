@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Weapons.Sound
+namespace WeaponsAR.Sound
 {
     [Serializable]
     public struct Volume

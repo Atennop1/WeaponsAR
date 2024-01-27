@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Weapons.Weapon
+namespace WeaponsAR.Weapon
 {
     public sealed class AssemblyCycleView : MonoBehaviour, IAssemblyCycleView
     {

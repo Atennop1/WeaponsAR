@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Weapons.Weapon
+namespace WeaponsAR.Weapon
 {
     [Serializable]
     public struct AssemblyState

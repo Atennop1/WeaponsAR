@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Weapons.Buttons
+namespace WeaponsAR.Buttons
 {
     public sealed class PlaySoundButton : MonoBehaviour
     {

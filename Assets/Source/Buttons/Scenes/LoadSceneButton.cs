@@ -2,7 +2,7 @@
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace Weapons.Buttons
+namespace WeaponsAR.Buttons
 {
     public sealed class LoadSceneButton : MonoBehaviour
     {

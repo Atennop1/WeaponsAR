@@ -1,4 +1,4 @@
-﻿namespace Weapons.Weapon
+﻿namespace WeaponsAR.Weapon
 {
     public interface IAssemblyCycle
     {

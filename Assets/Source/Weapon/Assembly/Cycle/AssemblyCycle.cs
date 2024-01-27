@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Weapons.Weapon
+namespace WeaponsAR.Weapon
 {
     public sealed class AssemblyCycle : IAssemblyCycle
     {
@@ -17,19 +17,19 @@ namespace Weapons.Weapon
 
         public void Continue()
         {
-            _view.DisplayText(_states[_currentStateIndex].Description);
             _view.DisplayNextAnimation();
-            
-            if (_currentStateIndex == _states.Count - 1)
-            {
-                _view.DisplayEndButton();
-                _currentStateIndex++;
-                return;
-            }
             
             if (_currentStateIndex == _states.Count)
             {
                 _currentStateIndex = 0;
+                return;
+            }
+
+            _view.DisplayText(_states[_currentStateIndex].Description);
+            if (_currentStateIndex == _states.Count - 1)
+            {
+                _view.DisplayEndButton();
+                _currentStateIndex++;
                 return;
             }
 

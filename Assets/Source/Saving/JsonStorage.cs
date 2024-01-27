@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using UnityEngine;
-using Weapons.Saving.Paths;
+using WeaponsAR.Saving.Paths;
 
-namespace Weapons.Saving
+namespace WeaponsAR.Saving
 {
     public sealed class JsonStorage<TStoreValue> : ISaveStorage<TStoreValue>
     {

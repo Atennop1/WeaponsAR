@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Vuforia;
 
-namespace Weapons.Camera
+namespace WeaponsAR.Camera
 {
     public sealed class ARCameraInitializer : MonoBehaviour
     {

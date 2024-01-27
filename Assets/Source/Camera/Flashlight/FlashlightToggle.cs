@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Vuforia;
-using Weapons.Saving;
-using Weapons.Saving.Paths;
+using WeaponsAR.Saving;
+using WeaponsAR.Saving.Paths;
 
-namespace Weapons.Camera
+namespace WeaponsAR.Camera
 {
     public sealed class FlashlightToggle : MonoBehaviour
     {
