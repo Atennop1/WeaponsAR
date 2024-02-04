@@ -17,15 +17,15 @@ namespace WeaponsAR.Weapon
 
         public void Continue()
         {
-            _view.DisplayNextAnimation();
-            
             if (_currentStateIndex == _states.Count)
             {
                 _currentStateIndex = 0;
                 return;
             }
-
+            
+            _view.DisplayNextAnimation();
             _view.DisplayText(_states[_currentStateIndex].Description);
+            
             if (_currentStateIndex == _states.Count - 1)
             {
                 _view.DisplayEndButton();
