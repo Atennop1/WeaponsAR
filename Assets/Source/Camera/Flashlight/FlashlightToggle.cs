@@ -10,12 +10,12 @@ namespace WeaponsAR.Camera
     {
         [SerializeField] private Toggle _toggle;
 
-        private FlashlightState _currentState;
-        private ISaveStorage<FlashlightState> _stateStorage;
+        private IsFlashlightEnabled _isEnabled;
+        private ISaveStorage<IsFlashlightEnabled> _stateStorage;
 
         private void Awake()
         {
-            _stateStorage = new JsonStorage<FlashlightState>(new Path("Flashlight.json"));
+            _stateStorage = new JsonStorage<IsFlashlightEnabled>(new Path("IsFlashlightEnabled.json"));
             _toggle.onValueChanged.AddListener(ChangeState);
             _toggle.isOn = _stateStorage.HasSave() && _stateStorage.Load().Value;
         }
@@ -25,8 +25,8 @@ namespace WeaponsAR.Camera
             if (VuforiaBehaviour.Instance != null)
                 VuforiaBehaviour.Instance.CameraDevice.SetFlash(active);
 
-            _currentState.Value = active;
-            _stateStorage.Save(_currentState);
+            _isEnabled.Value = active;
+            _stateStorage.Save(_isEnabled);
         }
 
         private void OnDestroy()

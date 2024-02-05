@@ -3,11 +3,11 @@
 namespace WeaponsAR.Camera
 {
     [Serializable]
-    public struct FlashlightState
+    public struct IsFlashlightEnabled
     {
         public bool Value;
 
-        public FlashlightState(bool value)
+        public IsFlashlightEnabled(bool value)
             => Value = value;
     }
 }

@@ -11,11 +11,11 @@ namespace WeaponsAR.Buttons
     {
         [SerializeField] private Button _button;
         
-        private ISaveStorage<FlashlightState> _stateStorage;
+        private ISaveStorage<IsFlashlightEnabled> _stateStorage;
             
         private void Awake()
         {
-            _stateStorage = new JsonStorage<FlashlightState>(new Path("Flashlight.json"));
+            _stateStorage = new JsonStorage<IsFlashlightEnabled>(new Path("IsFlashlightEnabled.json"));
             _button.onClick.AddListener(Load);
         }
 

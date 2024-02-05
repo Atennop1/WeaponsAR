@@ -7,11 +7,11 @@ namespace WeaponsAR.Camera
 {
     public sealed class FlashlightLoader : MonoBehaviour
     {
-        private ISaveStorage<FlashlightState> _stateStorage;
+        private ISaveStorage<IsFlashlightEnabled> _stateStorage;
 
         private void Awake()
         {
-            _stateStorage = new JsonStorage<FlashlightState>(new Path("Flashlight.json"));
+            _stateStorage = new JsonStorage<IsFlashlightEnabled>(new Path("IsFlashlightEnabled.json"));
             
             if (VuforiaBehaviour.Instance != null)
                 VuforiaBehaviour.Instance.CameraDevice.SetFlash(_stateStorage.HasSave() && _stateStorage.Load().Value);
