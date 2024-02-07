@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d5e574560696480eaeb39b541e827d29, type: 3}
-  m_Name: Menu
+  m_Name: MenuScene
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Menu
