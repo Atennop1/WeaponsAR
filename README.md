@@ -24,3 +24,9 @@ This is my project for 10th grade, which I did in the Altair technology park fro
  ## Conclusion
  
 This project was a fun experience working with AR and Unity, it gave me a greater understanding of how such applications work and allowed me to complete 10th grade without academic debt. Well, I also learned how to assemble an AK-47 :D
+
+# Gallery
+
+|![Screenshot_2024_02_08_18_58_15_980_com_atennopgames_weaponsar](https://github.com/Atennop1/WeaponsAR/assets/73060890/2488c494-5beb-4a06-aec2-e601341c0ed9) | ![Screenshot_2024_02_08_18_58_33_270_com_atennopgames_weaponsar](https://github.com/Atennop1/WeaponsAR/assets/73060890/4bb3b75b-b8e6-499f-ad8a-6de2733f5d48) | ![Screenshot_2024_02_08_18_59_09_536_com_atennopgames_weaponsar](https://github.com/Atennop1/WeaponsAR/assets/73060890/8395fa92-3c89-4dde-a0ad-93b88014c825) |
+| - | - | - |
+| ![Screenshot_2024_02_08_18_59_48_017_com_atennopgames_weaponsar](https://github.com/Atennop1/WeaponsAR/assets/73060890/746fbb71-5da3-4486-8a04-e270f3e16900) | ![Screenshot_2024_02_08_18_59_56_426_com_atennopgames_weaponsar](https://github.com/Atennop1/WeaponsAR/assets/73060890/8165206c-1234-4eb7-97ff-df0210673ef2) | ![Screenshot_2024_02_08_19_00_10_456_com_atennopgames_weaponsar](https://github.com/Atennop1/WeaponsAR/assets/73060890/139ab735-ba48-4b72-9d12-9e039814b3d0) |
