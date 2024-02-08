@@ -10,10 +10,8 @@ namespace WeaponsAR.Menu
 
         private void Awake()
         {
-            var stateStorage = new JsonStorage<IsDisclaimerHidden>(new Path("IsDisclaimerHidden.json"));
-            
-            if (stateStorage.HasSave() && stateStorage.Load().Value)
-                _disclaimer.SetActive(false);
+            var stateStorage = new JsonStorage<IsDisclaimerHidden>(new Path("IsDisclaimerHidden.json")); 
+            _disclaimer.SetActive(!stateStorage.HasSave() || !stateStorage.Load().Value);
         }
     }
 }

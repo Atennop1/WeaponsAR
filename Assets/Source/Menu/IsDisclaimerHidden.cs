@@ -1,5 +1,8 @@
-﻿namespace WeaponsAR.Menu
+﻿using System;
+
+namespace WeaponsAR.Menu
 {
+    [Serializable]
     public struct IsDisclaimerHidden
     {
         public bool Value;

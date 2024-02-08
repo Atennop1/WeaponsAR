@@ -13,12 +13,12 @@ namespace WeaponsAR.Sound
 
         private Volume _currentVolume;
         private ISaveStorage<Volume> _volumeStorage;
-        private VolumeSetter _volumeSetter;
+        private VolumeApplier _volumeApplier;
 
         private void Awake()
         {
             _volumeStorage = new JsonStorage<Volume>(new Path("Volume.json"));
-            _volumeSetter = new VolumeSetter(_audioMixer);
+            _volumeApplier = new VolumeApplier(_audioMixer);
             
             _slider.onValueChanged.AddListener(SetVolume);
             _slider.value = _volumeStorage.HasSave() ? _volumeStorage.Load().Value : 1;
@@ -27,7 +27,7 @@ namespace WeaponsAR.Sound
         private void SetVolume(float value)
         {
             _currentVolume.Value = value;
-            _volumeSetter.Set(_currentVolume);
+            _volumeApplier.Apply(_currentVolume);
             _volumeStorage.Save(_currentVolume);
         }
 

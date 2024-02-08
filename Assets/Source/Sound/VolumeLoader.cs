@@ -9,14 +9,14 @@ namespace WeaponsAR.Sound
     {
         [SerializeField] private AudioMixer _audioMixer;
         
-        private VolumeSetter _volumeSetter;
+        private VolumeApplier _volumeApplier;
         private ISaveStorage<Volume> _volumeStorage;
 
-        private void Start()
+        private void Awake()
         {
             _volumeStorage = new JsonStorage<Volume>(new Path("Volume.json"));
-            _volumeSetter = new VolumeSetter(_audioMixer);
-            _volumeSetter.Set(new Volume(_volumeStorage.HasSave() ? _volumeStorage.Load().Value : 1));
+            _volumeApplier = new VolumeApplier(_audioMixer);
+            _volumeApplier.Apply(new Volume(_volumeStorage.HasSave() ? _volumeStorage.Load().Value : 1));
         }
     }
 }
