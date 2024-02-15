@@ -6,7 +6,7 @@
 
 ## About project
 
-This is my project for 10th grade, which I did in the Altair technology park from RTU MIREA using Unity version 2022.3.12.1f. The project itself is an application in which you can scan weapon tags in augmented reality, and then see what they look like, their history, listen to the sound of a shot, and most importantly, watch a step-by-step guide to assembling this weapon. I did this project trying to adhere to the OOP style, but without composition root it will not be possible to fully develop OOP and I will have to put the logic into MonoBehaviors.
+This is my project for 10th grade, which I did in the Altair technology park from RTU MIREA using Unity version 2022.3.12.1f. The project itself is an application in which you can scan weapon tags in augmented reality, and then see what they look like, their history, listen to the sound of a shot, and most importantly, watch a step-by-step guide to assembling this weapon. I did this project trying to adhere to the OOP style, but without composition root it will not be possible to fully reveal the essence and power of OOP and I will have to put the logic into MonoBehaviours.
 
 ### Specifics
  - Project trying to use **OOP** and **SOLID**
