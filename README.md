@@ -23,7 +23,7 @@ This is my project for 10th grade, which I did in the Altair technology park fro
  
  ## Conclusion
  
-This project was a fun experience working with AR and Unity, it gave me a greater understanding of how such applications work and allowed me to complete 10th grade without academic debt. Well, I also learned how to assemble an AK-47 :D
+This project was a fun experience working with AR and Unity, it gave me a greater understanding of how such applications work and thanks to this project, my high school certificate shows an “Excellent” mark for an individual project. Well, I also learned how to assemble an AK-47 :D
 
 # Gallery
 
